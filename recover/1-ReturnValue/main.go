@@ -45,7 +45,7 @@ func func3() (res5 int, res6 *int) {
 	return
 }
 
-func print_return_val(i int, f func()(int, *int)) {
+func print_return_val(i int, f func() (int, *int)) {
 	a, b := f()
 	idx1 := i
 	idx2 := i + 1

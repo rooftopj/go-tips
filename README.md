@@ -26,3 +26,12 @@
 
 **recover**
 1. recover时函数的返回值
+
+**method**
+1. 方法接收者
+2. 调用方法的运行过程
+
+## References
+[《Go语言设计与实现》](https://draveness.me/golang/)
+
+[《Go语言圣经》](https://books.studygolang.com/gopl-zh/)

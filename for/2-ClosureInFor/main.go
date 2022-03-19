@@ -14,7 +14,7 @@ func main() {
 
 func wrong_way() {
 	var wg sync.WaitGroup
-	tasks := []int{1,2,3,4,5,6,7,8}
+	tasks := []int{1, 2, 3, 4, 5, 6, 7, 8}
 	wg.Add(len(tasks))
 	for _, val := range tasks {
 		go func() {
@@ -28,10 +28,9 @@ func wrong_way() {
 	wg.Wait()
 }
 
-
 func correct_way() {
 	var wg sync.WaitGroup
-	tasks := []int{1,2,3,4,5,6,7,8}
+	tasks := []int{1, 2, 3, 4, 5, 6, 7, 8}
 	wg.Add(len(tasks))
 	for _, val := range tasks {
 		go func(v int) {
