@@ -30,6 +30,7 @@
 **method**
 1. 方法接收者
 2. 调用方法的运行过程
+3. 实现接口
 
 ## References
 [《Go语言设计与实现》](https://draveness.me/golang/)
